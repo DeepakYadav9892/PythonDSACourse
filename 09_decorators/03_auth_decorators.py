@@ -4,6 +4,7 @@ def require_admin(func):
     def wrapper(user_role):
         if user_role!="Admin":
             print("Access denied :Admin onlu")
+            return None
         else:
             return func(user_role)
     return wrapper

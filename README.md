@@ -17,3 +17,9 @@ git remote add origin https://github.com/DeepakYadav9892/PythonDSACourse.git
 git branch -M main
 git push -u origin main
 
+Windows (Command Prompt / PowerShell)
+1️⃣venv create
+python -m venv venv
+
+2️⃣ Activate venv
+venv\Scripts\activate
